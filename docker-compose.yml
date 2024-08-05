@@ -1,26 +1,26 @@
 version: '3.8'
 services:
-  movies:
-    image: sireesha943/paytmmovies:latest
+  design:
+    image: sireeshayanamala93/design:latest
     ports:
       - "81:80"
     deploy:
-      replicas: 3
-  train:
-    image: sireesha943/paytmtrain:latest
+      relicas: 3
+  branding:
+    image: sireeshayanamala93/branding:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
-  dth:
-    image: sireesha943/paytmdth:latest
+  consultation:
+    image: sireeshayanamala93/consultation:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
-  recharge:
-    image: sireesha943/paytmrecharge:latest
+  promises:
+    image: sireeshayanamala93/promises:latest
     ports:
-      - "84:80"
+      -p "84:80"
     deploy:
       replicas: 3
