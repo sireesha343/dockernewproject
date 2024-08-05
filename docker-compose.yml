@@ -1,25 +1,25 @@
 version: '3.8'
 services:
   design:
-    image: sireeshayanamala93/design:latest
+    image: sireeshayanamala93/movies:latest
     ports:
       - "81:80"
     deploy:
       replicas: 3
   branding:
-    image: sireeshayanamala93/branding:latest
+    image: sireeshayanamala93/train:latest
     ports:
       - "82:80"
     deploy:
       replicas: 3
   consultation:
-    image: sireeshayanamala93/consultation:latest
+    image: sireeshayanamala93/recharge:latest
     ports:
       - "83:80"
     deploy:
       replicas: 3
   promises:
-    image: sireeshayanamala93/promises:latest
+    image: sireeshayanamala93/dth:latest
     ports:
       - "84:80"
     deploy:
