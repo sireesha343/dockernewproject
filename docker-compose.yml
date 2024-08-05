@@ -21,6 +21,6 @@ services:
   promises:
     image: sireeshayanamala93/promises:latest
     ports:
-      -p "84:80"
+      - "84:80"
     deploy:
       replicas: 3
